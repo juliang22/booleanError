@@ -1,0 +1,15 @@
+<appian-plugin name="My Corp - Hello Appian" key="hello-appian">
+  <plugin-info>
+    <description>My Corp Connected System - Hello Appian</description>
+    <vendor name="Example Corp" url="http://www.example.com"/>
+    <version>1.0.0.0</version>
+    <application-version min="7.6.0.4"/>
+  </plugin-info>
+  <connected-system-template key="HelloAppianConnectedSystem"
+                             name="HelloAppianConnectedSystem"
+                             class="com.example.helloappian.templates.HelloAppianCSP">
+    <integration-template key="HelloAppianIntegrationTemplate"
+                          name="HelloAppianIntegrationTemplate"
+                          class="com.example.helloappian.templates.HelloAppianIntegrationTemplate" />
+  </connected-system-template>
+</appian-plugin>
